@@ -40,7 +40,7 @@ const resetHandler = () => {
     number.value = 0
     setTimeout(() => {
         alert('Counter reset!')
-    }, 0);
+    }, 2000);
 }
 
 subtract.addEventListener('click', subtractHandler)
